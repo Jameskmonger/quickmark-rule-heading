@@ -1,6 +1,6 @@
 {
   "name": "quickmark-rule-heading",
-  "version": "0.0.3",
+  "version": "1.0.0",
   "description": "Heading rule for Quickmark",
   "main": "index.js",
   "files": [
