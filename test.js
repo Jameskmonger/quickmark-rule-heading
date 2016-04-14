@@ -49,3 +49,15 @@ test('it returns the correct \'original\' for hashes', (t, input) => {
     ['### plain text here'],
     ['##### woop dee doo']
 ]);
+
+test('it returns the correct \'parsed\' for hashes', (t, prefix, input) => {
+
+    let fullInput = prefix + input;
+    let output = heading(fullInput);
+    t.assert.equal(input, output.parsed);
+
+}, [
+    ['# ', 'apples and oranges'],
+    ['### ', 'plain text here'],
+    ['##### ', 'woop dee doo']
+]);
