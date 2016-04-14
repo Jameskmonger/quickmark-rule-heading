@@ -4,7 +4,8 @@
   "description": "Heading rule for Quickmark",
   "main": "index.js",
   "scripts": {
-    "test": "modunit test.js"
+    "test": "modunit test.js",
+    "lint": "eslint ."
   },
   "repository": {
     "type": "git",
