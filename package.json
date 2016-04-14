@@ -3,6 +3,9 @@
   "version": "0.0.1",
   "description": "Heading rule for Quickmark",
   "main": "index.js",
+  "files": [
+    "index.js"
+  ],
   "scripts": {
     "test": "modunit test.js",
     "lint": "eslint ."
