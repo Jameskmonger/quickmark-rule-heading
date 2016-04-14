@@ -1,0 +1,22 @@
+{
+  "name": "quickmark-rule-heading",
+  "version": "1.0.0",
+  "description": "Heading rule for Quickmark",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jameskmonger/quickmark-rule-heading.git"
+  },
+  "keywords": [
+    "quickmark",
+    "heading",
+    "regexp",
+    "markdown"
+  ],
+  "author": "James Monger <jameskmonger@hotmail.co.uk> (https://jamesmonger.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Jameskmonger/quickmark-rule-heading/issues"
+  },
+  "homepage": "https://github.com/Jameskmonger/quickmark-rule-heading#readme"
+}
