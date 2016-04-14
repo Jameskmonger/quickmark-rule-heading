@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/Jameskmonger/quickmark-rule-heading/issues"
   },
-  "homepage": "https://github.com/Jameskmonger/quickmark-rule-heading#readme"
+  "homepage": "https://github.com/Jameskmonger/quickmark-rule-heading#readme",
+  "devDependencies": {
+    "modunit": "^0.3.0"
+  }
 }
