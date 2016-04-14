@@ -61,3 +61,17 @@ test('it returns the correct \'parsed\' for hashes', (t, prefix, input) => {
     ['### ', 'plain text here'],
     ['##### ', 'woop dee doo']
 ]);
+
+test('it returns the correct \'depth\' for hashes', (t, input, depth) => {
+
+    let output = heading(input);
+    t.assert.equal(depth, output.depth);
+
+}, [
+    ['# one deep', 1],
+    ['## two deep', 2],
+    ['### three deep', 3],
+    ['#### four deep', 4],
+    ['##### five deep', 5],
+    ['###### six deep', 6]
+]);
