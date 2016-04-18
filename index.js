@@ -1,6 +1,6 @@
 'use strict';
 
-var REGEXP = /^(#{1,6}) *([\s\S]+?)(?:\n|\\n|$)/;
+var REGEXP = /^(#{1,6}) *([\s\S]+?)(?:\n+|\\n+|$)/;
 
 module.exports = function (input) {
     var parsed = REGEXP.exec(input);
