@@ -75,3 +75,17 @@ test('it returns the correct \'depth\' for hashes', (t, input, depth) => {
     ['##### five deep', 5],
     ['###### six deep', 6]
 ]);
+
+test('it returns the correct output for a string with line breaks', t => {
+
+    let input = '# Documentation\n\nThis is a documentation about the **cool project**.';
+    let expectedOutput = {
+        original: '# Documentation\n\n',
+        parsed: 'Documentation',
+        depth: 1
+    };
+
+    let output = heading(input);
+    t.assert.deepEqual(expectedOutput, output);
+
+});
